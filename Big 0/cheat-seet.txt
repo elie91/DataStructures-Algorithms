@@ -1,0 +1,53 @@
+http://bigocheatsheet.com
+
+---GOOD CODE-------
+Readable
+Scalable(Speed,Memory)
+
+---BIG O---
+
+- O(1)          =>Constant - No loops
+- O(log n)      =>Logarithmic - usually searching algorihtms if they are sorted(Binary Search)
+- O(n)          =>Linear - for loops, while loops
+- O(n*log(n))   =>Log liniear - Sorting operations usually
+- O(n^2)        =>Quadratic - two nested loops
+- O(2^N)        =>Exponentiall - recursive algo that solve the problem of size No
+-O(n!) -        =>adding a loop for every element
+
+----Rules------
+1: Always worst Cases
+2: Remove constants
+3: Differents input have Differents variables
+4: Drop Non Dominants Terms (Keep the biggest)
+
+---Cases---
+** Iterating through half a collection is still O(n)
+** Two separate collection is O(a + b)
+** Iterating through a collection with 2 nested loop is O(n^2)
+** Two separate collection is O(a * b)
+
+---3 Pillars Of Code
+Which code is best
+1: Readable => clean code, maintainable
+2: Speed => Time Complexity, has a Big O time Complexity that is efficient
+            Scale Well
+3: Memory => What is the memory usage
+
+---Space Complexity
+Variables
+Data Structures
+Functions Call
+Allocations
+
+--Operations on data Structures
+Insertion   => add a new item
+Deletion    => Delete data
+Traversal   => Access each data exactly one time
+Searching   => Find out the location of a data  item
+Sorting     => Having data that is sorting
+Access      => Access to data
+
+
+--Tricks
+string.length in javascript is just a lookup(property), its 0(1) no matter the length
+
